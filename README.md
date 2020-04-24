@@ -1,5 +1,33 @@
 # GANS
 
+GAN contains two networks which has two competing objectives:
+
+Generator: the generator generates new data instances that are "similar" to the training data, in our case celebA images. Generator takes random latent vector and output a "fake" image of the same size as our reshaped celebA image.
+
+Discriminator: the discriminator evaluate the authenticity of provided images; it classifies the images from the generator and the original image. Discriminator takes true of fake images and output the probability estimate ranging between 0 and 1.
+
+
+Generative adversarial networks (GANs) are one of the hottest topics in deep learning. (GANs) are a class of artificial algorithms used in unsupervised learning algorithm, implemented by a system of two neural networks
+
+Both networks are contesting with each other in the Zero-Sum Game Framework. Generative Adversarial Networks(GANs) are a set of models that basically learn to create synthetic data that is similar to input data it’s given.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Deep-Learning-based Methods
 Year|Proceeding|Title|Comment
 --|:--:|:--:|:--
